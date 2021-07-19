@@ -1,0 +1,24 @@
+{
+  "name": "thermoProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:cucumber": "cucumber-js --require cucumber.conf.js --require step-definitions",
+    "test:qo": "cucumber-js --require cucumber.conf.js --tags @qo_tests --require step-definitions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.0",
+    "chromedriver": "^91.0.1",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-pretty": "^6.0.0",
+    "json-reporter": "^2.1.1",
+    "nightwatch": "^1.7.7",
+    "nightwatch-api": "^3.0.2",
+    "selenium-server": "^3.141.59"
+  },
+  "dependencies": {}
+}
